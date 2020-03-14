@@ -17,7 +17,7 @@ module.exports = function (grunt) {
       },
       target: {
         files: {
-          'dist/index.min.css': './css/*.css'
+          'dist/css/index.min.css': './css/*.css'
         }
       }
     },
@@ -32,6 +32,10 @@ module.exports = function (grunt) {
       html: {
         src: './index.html',
         dest: './dist/index.html'
+      },
+      images:{
+        src: ['./images/*.{png,jpg,gif}'],
+        dest: './dist/'
       }
     },
     useminPrepare: {
