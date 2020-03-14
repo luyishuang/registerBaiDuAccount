@@ -1,0 +1,30 @@
+{
+  "name": "registerBaiDuAccount",
+  "version": "1.0.0",
+  "description": "🎉 注册百度账号——作业2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luyishuang/registerBaiDuAccount.git"
+  },
+  "keywords": [],
+  "author": "luyishuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luyishuang/registerBaiDuAccount/issues"
+  },
+  "homepage": "https://github.com/luyishuang/registerBaiDuAccount#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  },
+  "dependencies": {
+    "grunt-usemin": "^3.1.1"
+  }
+}
